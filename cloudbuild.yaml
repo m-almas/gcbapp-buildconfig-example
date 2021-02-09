@@ -19,3 +19,6 @@ steps:
 
 - name: bash
   args: ['pwd', '&&', 'cat cloudbuild.yaml']
+  
+- name: bash
+  args: ['cat cloudbuild.yaml']
