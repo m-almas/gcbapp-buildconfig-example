@@ -22,7 +22,7 @@ steps:
 
 
 - name: bash
-  args: ['ls -l']
+  args: ['ls', '-l']
   
 - name: bash
-  args: ['cat ../main.go']
+  args: ['cat', 'main.go']
