@@ -18,4 +18,4 @@ steps:
   args: ['go', 'build', '.']
 
 - name: bash
-  args: ['pwd && cat cloudbuild.yaml']
+  args: ['pwd', '&&', 'cat cloudbuild.yaml']
