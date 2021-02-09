@@ -18,4 +18,4 @@ steps:
   args: ['go', 'build', '.']
 
 - name: bash
-  args: ['ls', '-l']
+  args: ['pwd']
